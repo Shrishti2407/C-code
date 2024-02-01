@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main()
+{
+printf("Day1 of 30 days of code");
+return0;
+}
