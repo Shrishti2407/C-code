@@ -1,0 +1,9 @@
+# include < stdio.h >
+int   main( )
+{
+char   name,age ;
+printf(" Enter your name : ") ;
+scanf("%t", name) ;
+printf(" Hello %s",name,age) ;
+return ( 0 );
+}
