@@ -8,5 +8,5 @@ if(a%2==0);
 printf("%d is even");
 else
 printf("%d is odf");
-retorn0;
+return0;
 }
