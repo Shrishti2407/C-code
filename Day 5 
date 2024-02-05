@@ -1,0 +1,19 @@
+to print fibronacci sequence:-
+include <stdio.h>
+
+int main(void) {
+  int i,i1=0,i2=1,i3,n=10;
+  
+  printf("the fibronacci sequence \n");
+  printf("%d\n%d\n",i1,i2);
+  
+  for(i=1;i<n;i++)
+
+  { 
+    i3=i1+i2;
+   printf("%d\n",i3);
+   i1=i2;
+   i2=i3;
+   }
+   return 0;
+}
