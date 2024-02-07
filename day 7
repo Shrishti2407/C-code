@@ -1,0 +1,15 @@
+include <stdio.h>
+
+int main(void)
+{
+  int i,sum=0,arr[4] = {2,4,6,4};
+  for(i=0;i<4;i++)
+  {
+    sum+=arr[i];
+  }
+  printf("the sum of array is %d ",sum);
+    
+    
+  
+  return 0;
+}
